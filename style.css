@@ -27,7 +27,7 @@ ul {
   }
 
 .mydiv{
-    background-color: rgb(37, 175, 166);
+  
 }
 
   .landing
@@ -101,6 +101,12 @@ justify-content: right;
 }
 .book{
     opacity: 0.5;
+
+}
+.bg-tabs{
+    background-image: url("library.jpeg");
+    opacity: 0.9;
+    width: 100%;
 
 }
 
