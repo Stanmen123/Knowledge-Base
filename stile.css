@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    color: #333;
+  }
+  
+  header {
+    background-color:rgb(33, 112, 158);
+    color: white;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .process-flow {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .tips
+  {
+    display: flex;
+    padding: 40px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .step {
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background: #ddd;
+    transition: 0.3s;
+  }
+  
+  .step h3 {
+    margin-bottom: 10px;
+  }
+  
+  .step.completed {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .step.current {
+    background-color: #4CAF50;
+    color: rgb(255, 255, 255);
+  }
+  
+  .step.pending {
+    background-color: #f1cd04;
+    color: #000000;
+  }
+  
+  footer {
+    background-color: rgb(33, 112, 158);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+  }
+
+  .back{
+    width: 130px;
+    height: 40px;
+    font-size: 1.1em;
+    cursor: pointer;
+    background-color: #171717;
+    border: none;
+    border-radius: 5px;
+    transition: all .4s;
+   }
+   a{
+    text-decoration: none;
+    color: #f9f9f9;
+   }
+   
+   .back:hover {
+    border-radius: 5px;
+    transform: translateY(-10px);
+    box-shadow: 0 7px 0 -2px #f85959,
+     0 15px 0 -4px #39a2db,
+     0 16px 10px -3px #39a2db;
+   }
+   
+   .back:active {
+    transition: all 0.2s;
+    transform: translateY(-5px);
+    box-shadow: 0 2px 0 -2px #f85959,
+     0 8px 0 -4px #39a2db,
+     0 12p
+   }
+
+   nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 6%;
+}
+nav img{
+    width: 50px;
+}
+a{
+    text-decoration: none;
+    
+}
+nav{
+    display: flex;
+}
+.copy{
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+
+  }
+.Note{
+    padding-left: 200px;
+}
+  .ConEM{
+    padding-left: 300px;
+  }
+  input[type=text] {
+    width: 150%;
+    height: 200px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 5px 10px; 
+    padding: 12px 12px 12px 12px;
+    align-items: center;
+  }
+  
+  button{
+    width: 130px;
+    height: 40px;
+    font-size: 1.1em;
+    cursor: pointer;
+    background-color: #e87e7e;
+    border: none;
+    border-radius: 5px;
+    transition: all .4s;
+
+  }
+   
+  

@@ -1,0 +1,111 @@
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    display: inline;
+  }
+
+  
+  li {
+    float: Right;
+
+  }
+  
+  li a {
+    display: flex;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px ;
+    text-decoration: none;
+    font-family: 'verdana';
+
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #adaaaa;
+    border-radius: 10px;
+  }
+
+.mydiv{
+    background-color: rgb(37, 175, 166);
+}
+
+  .landing
+{
+    padding-top: 80px;
+    padding-bottom: 40px;
+    background-color: rgb(234, 226, 234);
+    text-align: center;
+
+}
+.tbl{
+    text-align: center;
+    padding-left: 15px;
+    margin: 10px; 
+
+}
+nav{
+    padding-right: 10px;
+}
+
+a{
+    text-decoration: none;  
+}
+
+.home{
+    width: 20px;
+
+}
+body {
+    width: 100%;
+}
+.logo{
+    width: 45px;
+    padding-top: 4px;
+    padding-bottom: 0px;
+
+}
+h1{
+    text-align: Center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span{
+    padding-top: 20px;
+    padding-left: 30px;
+    letter-spacing: 5px;
+    font-family: Arial;
+}
+.logoheader{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    gap: 2px;
+    padding-bottom: 10px;
+}
+.nav-links{
+    padding-top: 0px;
+}
+.option{
+display: inline;
+justify-content: right;
+}
+.Navi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    overflow: hidden;
+
+}
+.book{
+    opacity: 0.5;
+
+}
+
+
+
+
+
+
