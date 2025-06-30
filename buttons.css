@@ -2,18 +2,19 @@
 .btn {
     position: relative;
     font-size: 17px;
-    text-transform: uppercase;
     text-decoration: none;
     padding: 1em 2.5em;
     display: inline-block;
     cursor: pointer;
-    border-radius: 6em;
+    border-radius: 10px;
     transition: all 0.2s;
     border: none;
-    font-family: inherit;
+    font-family: "Open Sans", sans-serif;
     font-weight: 500;
     color: black;
     background-color: white;
+   width: 60%;
+   opacity: 0.8;
   }
   
   .btn:hover {
@@ -47,16 +48,17 @@
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;
   }
-  .hdr {
-    background-color: lightblue;
-    text-align: center;
-  }
+
   p{
     text-align: center;
-  }
-  body
-  {
-    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 
+  table{
+    align-items: center;
+    padding: 30px;
+    margin: 50px;
+    width: 100%;
+    
+  }
   
